@@ -69,4 +69,6 @@ public class Ban
 	/// </summary>
 	[Required]
 	public string Reason { get; set; } = null!;
+
+	public string? NewProp { get; set; }
 }
